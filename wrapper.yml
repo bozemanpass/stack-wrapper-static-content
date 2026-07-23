@@ -1,0 +1,6 @@
+wrapper:
+  name: static-content
+  description: Static HTML content served by nginx
+  base-container: bozemanpass/static-content-base
+  containerfile: Containerfile.app
+  port: 80

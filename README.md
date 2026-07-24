@@ -13,7 +13,7 @@ $ stack webapp build --wrapper static-content --source-repo ~/my-static-site
 
 ## Contents
 
-- `wrapper.yml` — the wrapper manifest (see the stack tool's `docs/webapp.md`)
+- `wrapper.yml` — the wrapper manifest (see the stack tool's `docs/wrappers.md`)
 - `Containerfile` — build for the `bozemanpass/static-content-base` base image
 - `Containerfile.app` — wraps the app source into a servable image (build context is the app repository)
 - `build.sh` — build script invoked by the stack tool

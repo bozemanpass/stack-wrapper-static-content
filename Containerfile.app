@@ -1,4 +1,4 @@
-FROM bozemanpass/static-content-base:stack as builder
+FROM bozemanpass/static-content-base:stack AS builder
 
 COPY . /content
 RUN rm -rf /content/.git /content/.github
